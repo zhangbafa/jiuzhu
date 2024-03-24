@@ -24,6 +24,6 @@ features:
     details: 对在站内突发急病的，及时送医院救治；
   - title: 💙
     details: 帮助与其亲属或者所在单位联系；
-  - title: 💜 
+  - title: 💜
     details: 对没有交通费返回其住所地或者所在单位的，提供乘车凭证。
 ---
