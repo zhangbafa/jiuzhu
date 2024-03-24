@@ -18,14 +18,14 @@ import { useData } from 'vitepress'
 const data = ref([])
 const { params } = useData()
 const area = params.value.pkg
-const filename = `/public/${area}.json`
+const filename = `../public/${area}.json`
 // const loadData = async () =>{
 //    const response = await fetch(filename);
 //    data.value = await response.json();
 // }
 // loadData()
 
-import('../public/北京.json')
+import(filename)
   .then(response => {
     // 处理响应
     console.log(response.default)
