@@ -1,16 +1,16 @@
 import { defineConfig } from 'vitepress'
 
 const cities = [
-  '北京', '天津', '上海', '重庆', '黑龙江', '吉林', '辽宁', '内蒙古', '河北', '山东',
-  '山西', '河南', '安徽', '江苏', '浙江', '湖北', '湖南', '江西', '福建', '广东',
-  '广西', '海南', '云南', '贵州', '四川', '陕西', '甘肃', '宁夏', '青海', '西藏',
-  '新疆', '兵团'
+  '北京市', '天津市', '上海市', '重庆市', '黑龙江省', '吉林省', '辽宁省', '内蒙古自治区', '河北省', '山东省',
+  '山西省', '河南省', '安徽省', '江苏省', '浙江省', '湖北省', '湖南省', '江西省', '福建省', '广东省',
+  '广西壮族自治区', '海南省', '云南省', '贵州省', '四川省', '陕西省', '甘肃省', '宁夏回族自治区', '青海省', '西藏自治区',
+  '新疆维吾尔自治区', '新疆生产建设兵团'
 ];
 
 const formattedCities = cities.map(city => {
   return {
     text: city,
-    link: `/area/${city}`
+    link: `/${city}`
   };
 });
 
@@ -21,8 +21,8 @@ export default defineConfig({
   description: "全国救助站,救助站，救助管理机构",
   lang:'zh',
   themeConfig: {
-    siteTitle: 'My Custom Title',
-    logo: '/logo.png',
+    // siteTitle: 'My Custom Title',
+    logo: '/logo.svg',
     search: {
       provider: 'local'
     },
