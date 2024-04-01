@@ -6,7 +6,7 @@ hero:
   name: "全国救助站一览表"
   text: ""
   tagline: 为了对在城市生活无着的流浪、乞讨人员实行救助，保障其基本生活权益
-  image: /logo2.svg
+  image: /logo.webp
   actions:
     - theme: brand
       text: 浏览列表

@@ -22,7 +22,7 @@ export default defineConfig({
   lang:'zh',
   themeConfig: {
     // siteTitle: 'My Custom Title',
-    logo: '/logo.svg',
+    logo: '/logo.webp',
     search: {
       provider: 'local'
     },
